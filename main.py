@@ -78,7 +78,7 @@ def report_day(sess, t):
     print(ddlSheng, ddlShi, ddlXian, f'***{XiangXDZ[-2:]}')
     print(f'是否为家庭地址：{ShiFZJ}')
     print(f'随申码：{SuiSM}')
-    print(f'行程码：{SuiSM}')
+    print(f'行程码：{XingCM}')
 
     for _ in range(RETRY):
         try:
